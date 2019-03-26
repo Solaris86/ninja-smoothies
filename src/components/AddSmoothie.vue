@@ -27,7 +27,7 @@ export default {
     },
     methods: {
         addSmoothie() {
-            console.log(this.title);
+            console.log(title);
         }
     }
 }
