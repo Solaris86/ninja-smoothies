@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar />
-    <Index />
+    <router-view></router-view>
   </div>
 </template>
 
@@ -12,12 +12,12 @@ import Index from '@/components/Index'
 export default {
   name: 'App',
   components: {
-    Navbar, 
+    Navbar,
     Index
   }
 }
 </script>
 
 <style>
- 
+
 </style>
